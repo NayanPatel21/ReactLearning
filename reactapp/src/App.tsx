@@ -1,5 +1,7 @@
 import "./App.css";
-import Card from "./common/Card";
+import Button from "./common/Button";
+import ButtonModule from "./common/ButtonModule/ButtonModule";
+// import Card from "./common/Card";
 // import Food from "./common/food";
 // import Footer from "./common/footer";
 // import Header from "./common/header";
@@ -9,10 +11,12 @@ function App() {
     <>
       {/* <Header></Header>
       <Food></Food>
-      <Footer></Footer> */}
-      <Card></Card> <Card></Card>
-      <Card></Card>
-      <Card></Card>
+      <Footer></Footer> 
+          <Card></Card> */}
+      <Button></Button>
+      <br></br>
+      <br></br>
+      <ButtonModule></ButtonModule>
     </>
   );
 }

@@ -31,3 +31,12 @@
 
 color: gray;
 }
+
+.buttonexternal
+{
+  color: white;
+  background-color: hsl(200,100%,50%);
+  border-radius: 5px;
+  padding: 10px 20px;
+  border: none;
+}
