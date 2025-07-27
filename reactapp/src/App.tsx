@@ -1,5 +1,6 @@
 import "./App.css";
-import StateHook from "./common/Hook/StateHook";
+import OnChangeHook from "./common/Hook/OnChangeHook";
+// import StateHook from "./common/Hook/StateHook";
 // import UseStateDemo from "./common/Hook/UseStateDemo";
 // import ButtonEvent from "./common/Event/ButtonEvent";
 // import ConditionalProps from "./common/props/ConditionalProps";
@@ -67,8 +68,9 @@ function App() {
       <ListComponent lst={vegetableList}></ListComponent>
       <ButtonEvent></ButtonEvent>
       <UseStateDemo></UseStateDemo>
-      */}
       <StateHook></StateHook>
+      */}
+      <OnChangeHook></OnChangeHook>
     </>
   );
 }
