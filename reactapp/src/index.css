@@ -92,3 +92,33 @@ display: inline-block;
   cursor: pointer;
   /* font-size: 2.5em; */
 }
+
+.State-hook
+{
+  margin: 0px;
+  border: 5px;
+  
+
+}
+.State-hook-number
+{
+    margin: 0px;
+  font-size: 10em ;
+  align-content: center;
+}
+
+.State-hook-button
+{
+  font-size: 2em;
+  margin: 5px;
+  border-radius: 5px;
+  background-color: hsla(238, 100%, 50%, 0.892);
+  color: hsl(180, 2%, 9%);
+}
+
+.State-hook-button:hover
+{
+  
+  color: hsla(180, 2%, 9%, 0.485);
+  cursor: pointer;
+}
