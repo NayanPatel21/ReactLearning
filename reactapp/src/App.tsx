@@ -1,5 +1,6 @@
 import "./App.css";
-import ColorPicker from "./common/Hook/ColorPicker";
+import StateHookUpdater from "./common/Hook/StateHookUpdater";
+// import ColorPicker from "./common/Hook/ColorPicker";
 // import OnChangeHook from "./common/Hook/OnChangeHook";
 // import StateHook from "./common/Hook/StateHook";
 // import UseStateDemo from "./common/Hook/UseStateDemo";
@@ -71,8 +72,10 @@ function App() {
       <UseStateDemo></UseStateDemo>
       <StateHook></StateHook>
         <OnChangeHook></OnChangeHook>
+         <ColorPicker></ColorPicker>
       */}
-      <ColorPicker></ColorPicker>
+
+      <StateHookUpdater></StateHookUpdater>
     </>
   );
 }
