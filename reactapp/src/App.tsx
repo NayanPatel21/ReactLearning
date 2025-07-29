@@ -1,5 +1,6 @@
 import "./App.css";
 import StateHookUpdater from "./common/Hook/StateHookUpdater";
+import StateHookUpdaterArray from "./common/Hook/StateHookUpdaterArray";
 import StateHookUpdaterObject from "./common/Hook/StateHookUpdaterObject";
 // import ColorPicker from "./common/Hook/ColorPicker";
 // import OnChangeHook from "./common/Hook/OnChangeHook";
@@ -75,9 +76,10 @@ function App() {
         <OnChangeHook></OnChangeHook>
          <ColorPicker></ColorPicker>
            <StateHookUpdater></StateHookUpdater>
+           <StateHookUpdaterObject></StateHookUpdaterObject>
       */}
 
-      <StateHookUpdaterObject></StateHookUpdaterObject>
+      <StateHookUpdaterArray></StateHookUpdaterArray>
     </>
   );
 }
