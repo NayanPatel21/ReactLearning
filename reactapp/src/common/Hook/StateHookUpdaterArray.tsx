@@ -1,4 +1,4 @@
-import React, { useState, type ChangeEvent } from "react";
+import React, { useState } from "react";
 
 const StateHookUpdaterArray = () => {
   const [food, setfood] = useState(["orange", "banana", "mango"]);
