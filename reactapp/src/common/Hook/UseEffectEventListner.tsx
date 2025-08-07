@@ -12,6 +12,10 @@ const UseEffectEventListner = () => {
   useEffect(() => {
     window.addEventListener("resize", handleResize);
     console.log("called");
+    return () => {
+      window.removeEventListener("resize", handleResize);
+      console.log("called - removed");
+    };
   }, []);
 
   return (
