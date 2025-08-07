@@ -1,9 +1,9 @@
 import "./App.css";
-import StateHookUpdater from "./common/Hook/StateHookUpdater";
-import StateHookUpdaterArray from "./common/Hook/StateHookUpdaterArray";
-import StateHookUpdaterArrayInObject from "./common/Hook/StateHookUpdaterArrayInObject";
-import StateHookUpdaterObject from "./common/Hook/StateHookUpdaterObject";
-import StateHookUpdaterToDoList from "./common/Hook/StateHookUpdaterToDoList";
+// import StateHookUpdater from "./common/Hook/StateHookUpdater";
+// import StateHookUpdaterArray from "./common/Hook/StateHookUpdaterArray";
+// import StateHookUpdaterArrayInObject from "./common/Hook/StateHookUpdaterArrayInObject";
+// import StateHookUpdaterObject from "./common/Hook/StateHookUpdaterObject";
+// import StateHookUpdaterToDoList from "./common/Hook/StateHookUpdaterToDoList";
 // import ColorPicker from "./common/Hook/ColorPicker";
 // import OnChangeHook from "./common/Hook/OnChangeHook";
 // import StateHook from "./common/Hook/StateHook";
@@ -19,6 +19,7 @@ import StateHookUpdaterToDoList from "./common/Hook/StateHookUpdaterToDoList";
 // import Food from "./common/food";
 // import Footer from "./common/footer";
 // import Header from "./common/header";
+import UseEffectIncrement from "./common/Hook/UseEffectIncrement";
 
 function App() {
   // const fruitList = {
@@ -81,9 +82,10 @@ function App() {
            <StateHookUpdaterObject></StateHookUpdaterObject>
            <StateHookUpdaterArray></StateHookUpdaterArray>
             <StateHookUpdaterArrayInObject></StateHookUpdaterArrayInObject>
+               <StateHookUpdaterToDoList></StateHookUpdaterToDoList>
       */}
 
-      <StateHookUpdaterToDoList></StateHookUpdaterToDoList>
+      <UseEffectIncrement></UseEffectIncrement>
     </>
   );
 }
