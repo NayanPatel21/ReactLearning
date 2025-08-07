@@ -1,4 +1,5 @@
 import "./App.css";
+import UseEffectIncrementColor from "./common/Hook/UseEffectIncrementColor";
 // import StateHookUpdater from "./common/Hook/StateHookUpdater";
 // import StateHookUpdaterArray from "./common/Hook/StateHookUpdaterArray";
 // import StateHookUpdaterArrayInObject from "./common/Hook/StateHookUpdaterArrayInObject";
@@ -19,7 +20,7 @@ import "./App.css";
 // import Food from "./common/food";
 // import Footer from "./common/footer";
 // import Header from "./common/header";
-import UseEffectIncrement from "./common/Hook/UseEffectIncrement";
+// import UseEffectIncrement from "./common/Hook/UseEffectIncrement";
 
 function App() {
   // const fruitList = {
@@ -83,9 +84,9 @@ function App() {
            <StateHookUpdaterArray></StateHookUpdaterArray>
             <StateHookUpdaterArrayInObject></StateHookUpdaterArrayInObject>
                <StateHookUpdaterToDoList></StateHookUpdaterToDoList>
+                <UseEffectIncrement></UseEffectIncrement>
       */}
-
-      <UseEffectIncrement></UseEffectIncrement>
+      <UseEffectIncrementColor></UseEffectIncrementColor>
     </>
   );
 }
