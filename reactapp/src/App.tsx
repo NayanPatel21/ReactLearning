@@ -1,5 +1,6 @@
 import "./App.css";
-import DigitalClock from "./common/Hook/DigitalClock";
+import UseContextComponentA from "./common/Hook/UseContextComponentA";
+// import DigitalClock from "./common/Hook/DigitalClock";
 // import UseEffectEventListner from "./common/Hook/useEffectEventListner";
 // import UseEffectIncrementColor from "./common/Hook/UseEffectIncrementColor";
 // import StateHookUpdater from "./common/Hook/StateHookUpdater";
@@ -89,8 +90,9 @@ function App() {
                 <UseEffectIncrement></UseEffectIncrement>
                 <UseEffectIncrementColor></UseEffectIncrementColor>
                 <UseEffectEventListner></UseEffectEventListner>
+                <DigitalClock></DigitalClock>
       */}
-      <DigitalClock></DigitalClock>
+      <UseContextComponentA></UseContextComponentA>
     </>
   );
 }
