@@ -1,12 +1,12 @@
 import UseContextComponentD from "./UseContextComponentD";
 
-const UseContextComponentC = ({ user }: { user: string }) => {
+const UseContextComponentC = () => {
   return (
     <>
       <div className="box">
         {" "}
         <h1>Component C</h1>
-        <UseContextComponentD user={user}></UseContextComponentD>
+        <UseContextComponentD></UseContextComponentD>
       </div>
     </>
   );

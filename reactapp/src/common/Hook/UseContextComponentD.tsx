@@ -1,4 +1,8 @@
-const UseContextComponentD = ({ user }: { user: string }) => {
+import { useContext } from "react";
+import { UserContext } from "./UseContextComponentA.tsx";
+const UseContextComponentD = () => {
+  ///{ user }: { user: string }
+  const user = useContext(UserContext);
   return (
     <>
       <div className="box">
